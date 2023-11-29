@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Nüshu</title>
+
+  <meta charset="utf-8" />
+  <meta name="description" content="A parallax scrolling experiment using jQuery" />
+
+  <link rel="stylesheet" media="all" href="style.css" />
+
+  <script src="js/2.js"></script>
+  <script>!window.jQuery && document.write('<script src="/js/3.js"><\/script>')</script>
+  <script src="js/1.js"></script>
+</head>
+
+<body>
+  <div class="heh" style="margin-bottom: 100px">
+    <header id="branding"
+      style="display: flex; align-items: center; justify-content: space-between;padding-top: 10px;padding-bottom: 10px;">
+      <a id="artwork" href="Second.html" style="color: white; font-size: 20px; margin-left: 5%;">Nüshu
+        Artwork</a>
+      <a id="viedo" href="Third.html" style="color: white; font-size: 20px; margin-right: 5%;">Video</a>
+    </header>
+  </div>
+
+  <div id="wrapper">
+    <!-- <h lang="zh-Nshu"></h>
+    <header id="branding"
+      style="display: flex; align-items: center; justify-content: space-between;padding-top: 10px;padding-bottom: 10px;">
+      <a href="Second.html" style="color: white; font-size: 20px; margin-left: 5%; border-top: 500px;">Nüshu Artwork</a>
+      <a href="Third.html" style="color: white; font-size: 20px; margin-right: 5%; border-top: 500px;">Video</a>
+ -->
+
+    </header>
+    <nav id="primary">
+      <ul>
+        <li>
+          <h1>Nüshu</h1>
+          <a class="N" href="#N">View</a>
+        </li>
+        <li>
+          <h1>Origins</h1>
+          <a class="O" href="#O">View</a>
+        </li>
+        <li>
+          <h1>Legend</h1>
+          <a class="L" href="#L">View</a>
+        </li>
+        <li>
+          <h1>About</h1>
+          <a class="about" href="#about">View</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="content">
+      <article id="N" style="padding-top: 250px;">
+        <header>
+          <h1>Nüshu</h1>
+        </header>
+        <p style="width: 450px;">女书Nüshu is the only calligraphic language system in the world created and used
+          exclusively by
+          women, which translates to "women's book" in Chinese; it is long, thin and feminine, with long, angular italic
+          characters, and is one of the earliest products of gender equality.</p>
+        <img src="img\cou_01_18_.jpg" width="450" height="320">
+        <p style="width: 450px; font-size: 12px;">Cover and interior of the Book of the Three Dynasties - A letter to a
+          woman on the third day of her new marriage.</p>
+        <nav class="next-prev" style="width: 450px;">
+          <hr />
+          <a class="next O" href="#O">Next</a>
+        </nav>
+      </article>
+
+      <article id="O">
+        <header>
+          <h1>Origins</h1>
+        </header>
+        <p style="width: 450px;">Nüshu, a mysterious female script, originated in Jiangyong County, Hunan Province in
+          southern China. It
+          has been passed down from mother to daughter and from old to young, and has been passed down from generation
+          to generation among Han and Yao women in Jiangyong County, Hunan Province, and its immediate neighbourhood,
+          making it a unique and miraculous cultural phenomenon in the history of mankind. The earliest record of
+          women's script that can be seen so far is the carved mother's money issued by the Taiping Heavenly Kingdom
+          (during the Xianfeng period of the Qing Dynasty). On the back of the coin, the words "Women of the World" and
+          "Sisters of the Family" are printed in women's script.</p>
+        <img src="img\20226201511121614031753.jpg" width="350" height="420">
+        <nav class="next-prev" style="width: 450px;">
+          <a class="prev N" href="#N">Prev</a>
+          <hr />
+          <a class="next L" href="#L">Next</a>
+        </nav>
+      </article>
+
+      <article id="L" style="padding-top: 250px;">
+        <header>
+          <h1>Legend</h1>
+        </header>
+        <p style="width: 450px;">First, long ago, at the Wei River, where a talented
+          JiuJin girl made female red embroidery while creating patterns for female characters;<br> Second, TongKou
+          Mountain
+          good at female work PanQiao girl in her 18 year old out, on the road was robbed to this place in the
+          DaoZhouFu, she by weaving lace and patterns, create a word every day, 3 years time around 1,080 to form words
+          and write a long letter, hidden in a dog's body, brought back to her relatives' home to report to them;<br>
+          Thirdly, it happened in the Song Dynasty, in Jingtian Village, Hu Yuxiu was chosen as the imperial consort,
+          but she was not popular in the palace, she was very homesick for her hometown, wanted to write letters to her
+          families, they created the word female; <br>Fourth, the women around the upper Jiangxu weaving and embroidery
+          pattern based on the collaborative creation of this text.</p>
+        <img src="img\cou_01_18_nushu_03.jpg" width="450" height="250">
+        <p style="width: 450px; font-size: 12px;">Film photos from the movie Snow Flower and the Secret Fan.</p>
+        <nav class="next-prev" style="width: 450px;">
+          <a class="prev O" href="#O">Prev</a>
+          <hr />
+          <a class="next about" href="#about">Next</a>
+        </nav>
+      </article>
+
+      <article id="about" style="padding-top: 250px;">
+        <header>
+          <h1>About</h1>
+        </header>
+        <p style="width: 450px;">This is a jQuery parallax scrolling experiment by Jonathan Nicol.</p>
+        <img src="img\Image_20231126211814.jpg" width="450" height="200">
+        <nav class="next-prev" style="width: 450px;">
+          <a class="prev L" href="#L">Prev</a>
+          <hr />
+        </nav>
+      </article>
+    </div>
+
+    <div id="bg3">
+      <img id="bg3-1" src="img/shu.png" style="margin-left: 100px;margin-top: 100px;" width="329" height="557"
+        alt="shu" />
+      <img id="bg3-2" src="img/ming.png" width="350" height="650" alt="ming" />
+      <img id="bg3-3" src="img/jiu.png" width="406" height="713" alt="jiu" />
+      <img id="bg3-4" src="img/nü.png" width="304" height="454" alt="nv" />
+    </div>
+
+    <div id="bg2">
+      <img id="bg2-1" src="img/zhi.png" alt="zhi" />
+      <img id="bg2-2" src="img/xi.png" alt="xi" />
+      <img id="bg2-3" src="img/jia.png" alt="jia" />
+      <img id="bg2-4" src="img/ting.png" alt="ting" />
+      <img id="bg2-5" src="img/jia.png" alt="jia" />
+    </div>
+
+    <div id="parallax-bg1">
+      <img id="bg1-1" src="img/nü.png" style="margin-left: 900px;margin-top: -120px;" alt="nv" />
+      <img id="bg1-2" src="img/shu.png" alt="shu" />
+      <img id="bg1-3" src="img/zhi.png" alt="zhi" />
+      <img id="bg1-4" src="img/xi.png" alt="xi" />
+    </div>
+
+  </div>
+  <audio id="audio-player1" src="1.mp3"></audio>
+  <audio id="audio-player2" src="2.mp3"></audio>
+  <audio id="audio-player3" src="3.mp3"></audio>
+
+
+  <script>
+    document.getElementById('bg1-1').addEventListener('click', function () {
+      var audio = document.getElementById('audio-player1');
+      audio.play();
+    });
+    document.getElementById('bg3-1').addEventListener('click', function () {
+      var audio = document.getElementById('audio-player1');
+      audio.play();
+    });
+    document.getElementById('bg3-4').addEventListener('click', function () {
+      var audio = document.getElementById('audio-player2');
+      audio.play();
+    });
+    document.getElementById('bg3-2').addEventListener('click', function () {
+      var audio = document.getElementById('audio-player3');
+      audio.play();
+    });
+    document.getElementById('bg1-2').addEventListener('click', function () {
+      var audio = document.getElementById('audio-player3');
+      audio.play();
+    });
+    document.getElementById('N').addEventListener('click', function () {
+      var audio = document.getElementById('audio-player3');
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    });
+    document.getElementById('O').addEventListener('click', function () {
+      var audio = document.getElementById('audio-player2');
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    });
+    document.getElementById('L').addEventListener('click', function () {
+      var audio = document.getElementById('audio-player1');
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    });
+  </script>
+
+</body>
+
+</html>
